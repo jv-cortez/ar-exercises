@@ -13,7 +13,7 @@ store2 = Store.find_by(id: 2)
 @store2 = store2
 @store2.employees.create(first_name: "Joel", last_name: "mcJoel", hourly_rate: 60)
 @store2.employees.create(first_name: "John", last_name: "mcJohn", hourly_rate: 55)
-@store2.employees.create(first_name: "Nicholas", last_name: "Cage", hourly_rate: 20)
+@store2.employees.create(first_name: "Nicholas", last_name: "Cage", hourly_rate: 40)
 
 puts "Exercise 6"
 puts "----------"
